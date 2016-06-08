@@ -34,6 +34,6 @@ get_clean_data <- function() {
   # merge data based on unique species
   mammal <- merge(mammal_diet, mammal_met, by = c("Species", "Order"))
   
-  # FIXME return mammal instead
-  mammal_diet
+  # return mammal
+  mammal
 }
