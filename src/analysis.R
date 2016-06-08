@@ -12,3 +12,6 @@ mammalt <- as.data.table(mammal)
 mammalt[,
         cor(BMR, Mass.BMR, use = "com"),
         by = MammalEater]
+
+
+# change analysis and use dplyr package
